@@ -1,6 +1,7 @@
 class FotosController < ApplicationController
   before_action :set_foto, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_user!, except: [:index, :show]
+  before_action :correct_user, only: [:edit, :update, :destroy]
   # GET /fotos
   # GET /fotos.json
   def index
@@ -14,7 +15,7 @@ class FotosController < ApplicationController
 
   # GET /fotos/new
   def new
-    @foto = Foto.new
+    @foto = current_user.fotos.build
   end
 
   # GET /fotos/1/edit
@@ -24,7 +25,7 @@ class FotosController < ApplicationController
   # POST /fotos
   # POST /fotos.json
   def create
-    @foto = Foto.new(foto_params)
+    @foto = current_user.fotos.build(foto_params)
 
     respond_to do |format|
       if @foto.save
@@ -70,5 +71,14 @@ class FotosController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def foto_params
       params.require(:foto).permit(:description)
+    # def correct_user
+    def correct_user
+      @foto = current_user.fotos.find_by(id: params[:id])
+      redirect_to fotos_path, notice: "Nie jesteś uprawniony
+      do edycji tego zdjęcia" if @photo.nil?
+      end
     end
+
+
+
 end

@@ -4,6 +4,7 @@
   <strong>Description:</strong>
   <%= @foto.description %>
 </p>
-
-<%= link_to 'Edit', edit_foto_path(@foto) %> |
-<%= link_to 'Back', fotos_path %>
+<% if @pin.user == current_user %>
+  <%= link_to 'Edytuj', edit_foto_path(@foto) %> |
+<% end %>
+<%= link_to 'Powrót', fotos_path %>

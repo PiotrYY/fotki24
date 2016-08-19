@@ -14,9 +14,11 @@
     <% @fotos.each do |foto| %>
       <tr>
         <td><%= foto.description %></td>
-        <td><%= link_to 'Show', foto %></td>
-        <td><%= link_to 'Edit', edit_foto_path(foto) %></td>
-        <td><%= link_to 'Destroy', foto, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <td><%= link_to 'Pokaż', foto %></td>
+        <% if pin.user == current_user %>
+          <td><%= link_to 'Edytuj', edit_foto_path(foto) %></td>
+          <td><%= link_to 'Usuń', foto, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
       </tr>
     <% end %>
   </tbody>
