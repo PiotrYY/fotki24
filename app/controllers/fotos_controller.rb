@@ -27,6 +27,7 @@ class FotosController < ApplicationController
   def create
     @foto = current_user.fotos.build(foto_params)
 
+
     respond_to do |format|
       if @foto.save
         format.html { redirect_to @foto, notice: 'Foto was successfully created.' }
@@ -70,7 +71,7 @@ class FotosController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def foto_params
-      params.require(:foto).permit(:description)
+      params.require(:foto).permit(:description, :image)
     # def correct_user
     def correct_user
       @foto = current_user.fotos.find_by(id: params[:id])
@@ -78,7 +79,4 @@ class FotosController < ApplicationController
       do edycji tego zdjęcia" if @photo.nil?
       end
     end
-
-
-
 end

@@ -4,7 +4,8 @@
   <strong>Description:</strong>
   <%= @foto.description %>
 </p>
-<% if @pin.user == current_user %>
+<%= image_tag @foto.image.url(:medium) %><br/>
+<% if @foto.user == current_user %>
   <%= link_to 'Edytuj', edit_foto_path(@foto) %> |
 <% end %>
 <%= link_to 'Powrót', fotos_path %>

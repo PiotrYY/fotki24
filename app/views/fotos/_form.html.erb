@@ -1,4 +1,4 @@
-<%= form_for(foto) do |f| %>
+<%= form_for @foto, html: { multipart: true } do |f| %>
   <% if foto.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(foto.errors.count, "error") %> prohibited this foto from being saved:</h2>
@@ -14,6 +14,11 @@
   <div class="field">
     <%= f.label :description %>
     <%= f.text_field :description %>
+  </div>
+
+  <div class="form-group">
+  <%= f.label :image, "Obraz" %>
+  <%= f.file_field :image, class: "form-control" %>
   </div>
 
   <div class="actions">
