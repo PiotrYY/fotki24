@@ -19,7 +19,7 @@
           <td><%= link_to 'Pokaż', foto %></td>
         <% if foto.user == current_user %>
           <td><%= link_to 'Edytuj', edit_foto_path(foto) %></td>
-          <td><%= link_to 'Usuń', foto, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <td><%= link_to 'Usuń', foto, method: :delete, data: { confirm: 'Jesteś pewny ?' } %></td>
         <% end %>
       </tr>
     <% end %>
