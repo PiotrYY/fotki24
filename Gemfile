@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'paperclip'
+
 gem 'aws-sdk', '~> 1.6'
 gem 'bootstrap-sass'
 gem 'devise'
 gem "font-awesome-rails"
+gem 'paperclip', '~> 4.2'
 
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'puma', '~> 3.0'
