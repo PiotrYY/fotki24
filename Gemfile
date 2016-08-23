@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'paperclip', '~> 4.3.0'
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'paperclip' 
+gem 'aws-sdk'
+gem 'bootstrap-sass'
 gem 'devise'
 gem "font-awesome-rails"
 
