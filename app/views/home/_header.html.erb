@@ -1,16 +1,17 @@
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container">
+  <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
     <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data- 6 toggle="collapse" data-target="#bs-examplenavbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> -->
+                <!-- <span class="sr-only">Toggle navigation</span> -->
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
-          </button>
+      </button>
     <a class="navbar-brand" href="#">Fotki24</a>
     </div>
 
-    <div class="collapse navbar-collapse" id="bsexample-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
             <li><%= link_to 'Strona główna', root_path %></li>
             <li><%= link_to 'O mnie', home_about_path %></li>
