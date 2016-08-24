@@ -19,11 +19,8 @@
 
             <% if user_signed_in? %>
                   <li><%= link_to 'Edycja profilu', edit_user_registration_path %></li>
-                  <li><%= link_to 'Wylogowanie', destroy_user_session_path,  method: :delete %></li>
-                  <li><%= link_to 'Dodaj zdjęcie', new_foto_path %>
-</li>
-
-</li>
+                  <li><%= link_to 'Wylogowanie', destroy_user_session_path, method: :delete %></li>
+                  <li><%= link_to 'Dodaj zdjęcie', new_foto_path %></li>
             <% else %>
                   <li><%= link_to "Logowanie", new_user_session_path %></li>
                   <li><%= link_to "Rejestracja", new_user_registration_path %></li>
