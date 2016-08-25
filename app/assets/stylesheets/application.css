@@ -39,8 +39,12 @@
 
  #skils{
    width: 100%;
-   min-height: 680px;
-   background-color: #ccc;
+   min-height: 720px;
+   background: url("http://naukawpolsce.pap.pl/Data/Thumbs/_plugins/information/390777/MTAyNHg3Njg,11793827_11793834.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
  }
 #skils img{
   width: 15%;

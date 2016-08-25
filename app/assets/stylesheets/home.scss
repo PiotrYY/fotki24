@@ -1,7 +1,26 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.jumbotron h1{
+  color: white;
+  position: absolute;
+  bottom:15%;
+}
+.jumbotron p{
+  color: white;
+  position: absolute;
+  bottom:10%;
+  left:15%;
+}
+.jumbotron .btn{
+  position: absolute;
+  bottom:5%;
+  left: 20%;
+}
 
+p{
+  color:white;
+}
 .jumbotron {
   height: 650px;
   background: url("http://static1.tapetyczne.pl/big/379-ziemia-woda-ogien.jpg") no-repeat center center fixed;
