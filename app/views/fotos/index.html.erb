@@ -1,12 +1,12 @@
 <p id="notice"><%= notice %></p>
-
-<h1>Lista zdjęć</h1>
-
+<div class="fotos">
+<h1>Photo list</h1>
+<div class="container table">
 <table>
   <thead>
     <tr>
-      <th>Obraz</th>
-      <th>Opis</th>
+      <th>Foto</th>
+      <th>Description</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -25,7 +25,17 @@
     <% end %>
   </tbody>
 </table>
-
+</div>
 <br>
+<div class="row">
+  <div class="col-md-5">
+  </div>
+<div class="col-md-2">
+<div class="plus">
+<%= link_to '+', new_foto_path %>
+</div>
+</div>
 
-<%= link_to 'Nowe zdjęcie', new_foto_path %>
+<div class="col-md-5">
+</div>
+</div>

@@ -1,6 +1,79 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html{
+  background-color: black;
+}
+body{
+  background-color: black;
+}
+
+/////////////////////////////STYLE NAVBAR
+
+li{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+}
+.logo{
+  font-size: 2.5em;
+  font-family: 'Baloo Paaji';
+
+}
+#fotki{
+  color:yellow;
+  font-family: 'Baloo Paaji';
+  font-style: italic;
+}
+.shadow{
+  -webkit-box-shadow: -9px 0px 49px -5px rgba(168,156,28,1);
+  -moz-box-shadow: -9px 0px 49px -5px rgba(168,156,28,1);
+  box-shadow: -9px 0px 49px -5px rgba(168,156,28,1);
+}
+
+li{
+  font-size: 110%;
+}
+
+
+li{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+}
+.logo{
+  font-size: 2.5em;
+  font-family: 'Baloo Paaji';
+
+}
+#fotki{
+  color:yellow;
+  font-family: 'Baloo Paaji';
+  font-style: italic;
+}
+.shadow{
+  -webkit-box-shadow: -9px 0px 49px -5px rgba(168,156,28,1);
+  -moz-box-shadow: -9px 0px 49px -5px rgba(168,156,28,1);
+  box-shadow: -9px 0px 49px -5px rgba(168,156,28,1);
+}
+
+
+.devise-layout{
+  width:45%;
+  min-width: 350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  color: #160D40;
+
+ -webkit-box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
+ -moz-box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
+ box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
+}
+.panel-heading h2{
+  color: #160D40;
+}
+/////////////////////////////STYLE ABOUT
+
 .jumbotron h1{
   color: white;
   position: absolute;
@@ -18,17 +91,90 @@
   left: 20%;
 }
 
-p{
-  color:white;
-}
+
+
 .jumbotron {
-  height: 650px;
+  height: 675px;
   background: url("http://static1.tapetyczne.pl/big/379-ziemia-woda-ogien.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-li{
-  font-size: 110%;
+
+#skils{
+  width: 100%;
+  min-height: 720px;
+  background: url("http://hcvtoniewyrok.com/wp-content/uploads/2014/05/133315_slonce-promienie-niebo-chmury.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#skils img{
+ width: 15%;
+}
+
+.devise-layout{
+  width:45%;
+  min-width: 350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  color: #160D40;
+
+ -webkit-box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
+ -moz-box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
+ box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
+}
+.panel-heading h2{
+  color: #160D40;
+}
+
+/////////////////////////////STYLE INDEX
+.first h1,
+.first .h1 {
+  color: inherit;
+}
+.first p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.first > hr {
+  border-top-color: #d5d5d5;
+}
+.container .first,
+.container-fluid .first {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+.first .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .first {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .first,
+  .container-fluid .first {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .first h1,
+  .first .h1 {
+    font-size: 63px;
+  }
+}
+
+.first{
+  height: 670px;
+  background: url("http://static.prsa.pl/images/c2dfc052-25b8-4cc4-a4ca-789ad0dcf265.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

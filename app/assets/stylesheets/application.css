@@ -13,39 +13,44 @@
  *= require_tree .
  *= require_self
  */
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+html{
+  background-color: black;
+}
+body{
+background-color: black;
+}
+h1, h2, h3, h4, p{
+  font-family: 'Raleway', sans-serif;
+}
+  h1{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
 
- html{
-   background-color: black;
- }
- body{
-   background-color: black;
- }
- .devise-layout{
-   width:45%;
-   min-width: 350px;
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 5%;
-   color: #160D40;
 
-  -webkit-box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
-  -moz-box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
-  box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
- }
-.panel-heading h2{
-   color: #160D40;
- }
+.form{
+  height: 600px;
+  background-color: white;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 69px 69px 69px 69px;
+-moz-border-radius: 69px 69px 69px 69px;
+-webkit-border-radius: 69px 69px 69px 69px;
+border: 0px solid #000000;
+background-color: #ded4a2;
+}
 
- #skils{
-   width: 100%;
-   min-height: 720px;
-   background: url("http://naukawpolsce.pap.pl/Data/Thumbs/_plugins/information/390777/MTAyNHg3Njg,11793827_11793834.jpg") no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
- }
-#skils img{
-  width: 15%;
+.formRender{
+  position: relative;
+  top:33%;
+  width: 480px;
+  left:33%;
+}
+.panel-body{
+  background-color: #FFFAC4;
+}
+.panel-heading{
+  background-color: #E7E1B0 !important;
 }
