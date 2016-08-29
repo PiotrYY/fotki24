@@ -87,7 +87,6 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'fotki24.herokuapp.com' }
 
   # config/environments/production.rb
-  # config/environments/production.rb
   config.paperclip_defaults = {
     storage: :s3,
     s3_credentials: {
@@ -97,4 +96,5 @@ Rails.application.configure do
       s3_region: ENV.fetch('AWS_REGION'),
     }
   }
+
 end
