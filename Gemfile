@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 gem 'paperclip'
-gem 'aws-sdk', '~> 2.3'
+gem 'aws-sdk', '< 2.0'
 gem 'bootstrap-sass'
 gem 'devise'
 gem "font-awesome-rails"
@@ -14,9 +14,6 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'bundler', '~> 1.12', '>= 1.12.5'
-ruby '2.3.1'
-
-
 
 group :development, :test do
   gem 'byebug', platform: :mri
