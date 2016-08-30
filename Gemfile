@@ -14,6 +14,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'bundler', '~> 1.12', '>= 1.12.5'
+ruby '2.3.1'
 
 
 
