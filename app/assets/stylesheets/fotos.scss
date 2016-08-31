@@ -1,6 +1,25 @@
   // Place all the styles related to the fotos controller here.
   // They will automatically be included in application.css.
   // You can use Sass (SCSS) here: http://sass-lang.com/
+  // Place all the styles related to the pins controller here.
+  // They will automatically be included in application.css.
+  // You can use Sass (SCSS) here: http://sass-lang.com/
+
+  #fotos {
+  margin: 0 auto;
+  }
+
+  .box {
+  margin: 5px;
+  width: 214px;
+  }
+
+  .box img {
+  width: 100%;
+  }
+
+
+
 .fotos{
   min-height: 670px;
     background: url("http://www.gunnars.com/wp-content/uploads/2014/08/Space.jpg") no-repeat center center fixed;

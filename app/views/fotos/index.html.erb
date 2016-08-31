@@ -2,32 +2,36 @@
 <div class="fotos">
   <h1>Lista zdjęć</h1>
       <div class="container table">
-
+        <div id="fotos" class="transitions-enabled">
           <% @fotos.each do |foto| %>
+            <div class="box">
               <%= link_to image_tag(foto.image.url(:medium)), foto %>
                         <%= foto.description %>
                         <%= link_to 'Pokaż', foto %><
                         <% if foto.user == current_user %>
                         <%= link_to 'Edytuj', edit_foto_path(foto) %></td>
                         <%= link_to 'Usuń', foto, method: :delete, data: { confirm: 'Jesteś pewny ?' } %>
+                </div>
                         <% end %>
                         <% end %>
 
-      </div>
+
 <br>
-    <div class="row">
-          <div class="col-md-5">
-          </div>
+          <div class="row">
+                <div class="col-md-5">
+                </div>
 
-        <div class="col-md-2">
-            <div class="plus">
-              <span class="add">
-                <%= link_to '+', new_foto_path %>
-              </span>
-            </div>
-        </div>
+              <div class="col-md-2">
+                  <div class="plus">
+                    <span class="add">
+                      <%= link_to '+', new_foto_path %>
+                    </span>
+                  </div>
+              </div>
 
-        <div class="col-md-5">
+              <div class="col-md-5">
+              </div>
         </div>
-  </div>
+        </div>
+      </div>
 </div>
