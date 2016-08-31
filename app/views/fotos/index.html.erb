@@ -4,9 +4,8 @@
       <div class="container table">
 
           <% @fotos.each do |foto| %>
-
-              <%= image_tag foto.image.url(:medium) %>
-              <%= foto.description %>
+              <%= link_to image_tag(foto.image.url(:medium)), foto %>
+                        <%= foto.description %>
                         <%= link_to 'Pokaż', foto %><
                         <% if foto.user == current_user %>
                         <%= link_to 'Edytuj', edit_foto_path(foto) %></td>
