@@ -1,18 +1,19 @@
-<p id="notice"><%= notice %></p>
-<div class="fotos">
-<h1>Lets see</h1>
-<div class="container table">
 
-<p>
-  <%= image_tag @foto.image.url(:medium) %><br/>
-  <strong>Description:</strong>
-  <%= @foto.description %>
-</p>
-<%= image_tag @foto.image.url(:medium) %><br/>
-<% if @foto.user == current_user %>
-  <%= link_to 'Edit', edit_foto_path(@foto) %> |
-<% end %>
-<%= link_to 'Back', fotos_path %>
-
-</div>
-</div>
+          <h1>Zobacz</h1>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                      <div class="panel panel-default">
+                          <div class="panel-heading center"><%= image_tag @foto.image.url(:medium) %>
+                              <%= @foto.description %>
+                          </div>
+                                <div class="panel-body">
+                                    <% if @foto.user == current_user %>
+                                    <%= link_to 'edytuj', edit_foto_path(@foto) %> |
+                                    <% end %>
+                                    <%= link_to 'wstecz', fotos_path %>
+                               </div>
+                     </div>
+                    </div>
+                </div>
+              </div>

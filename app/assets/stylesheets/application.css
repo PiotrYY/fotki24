@@ -9,10 +9,17 @@
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
- *= require font-awesome
- *= require 'masonry/transitions'
- *= require_tree .
- *= require_self
+*= require font-awesome
+*= require 'masonry/basic'
+*= require 'masonry/centered'
+*= require 'masonry/fluid'
+*= require 'masonry/gutters'
+*= require 'masonry/infinitescroll'
+*= require 'masonry/right-to-left'
+*= require 'masonry/transitions'
+*= require_self
+*= require_tree .
+
  */
 @import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
 @import 'https://fonts.googleapis.com/css?family=Raleway';
@@ -30,6 +37,9 @@ h1, h2, h3, h4, p{
   font-family: 'Raleway', sans-serif;
 }
 
+.yellow{
+  color: yellow;
+}
 
 .form{
   height: 600px;

@@ -4,7 +4,7 @@ class FotosController < ApplicationController
   before_action :check_user, only: [:edit, :destroy, :update]
 
   def index
-    @fotos = Foto.all
+    @fotos = Foto.all.order("created_at DESC")
   end
 
   def show

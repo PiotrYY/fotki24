@@ -1,37 +1,47 @@
 <p id="notice"><%= notice %></p>
-<div class="fotos">
-  <h1>Lista zdjęć</h1>
-      <div class="container table">
-        <div id="fotos" class="transitions-enabled">
-          <% @fotos.each do |foto| %>
-            <div class="box">
-              <%= link_to image_tag(foto.image.url(:medium)), foto %>
-                        <%= foto.description %>
-                        <%= link_to 'Pokaż', foto %><
-                        <% if foto.user == current_user %>
-                        <%= link_to 'Edytuj', edit_foto_path(foto) %></td>
-                        <%= link_to 'Usuń', foto, method: :delete, data: { confirm: 'Jesteś pewny ?' } %>
+<div class = "container-fluid">
+  <div class="main">
+        <!-- <div class="container table"> -->
+          <div class="transitions-enabled">
+            <% @fotos.each do |foto| %>
+              <div class="box">
+                <div class="panel panel-default">
+                          <%= link_to image_tag(foto.image.url(:medium)), foto %><br/>
+                          <%= foto.description %><br/>
                 </div>
-                        <% end %>
-                        <% end %>
+                          <% if foto.user == current_user %>
+                <div class="panel-footer">
+                          <%= link_to 'Edytuj', edit_foto_path(foto) %> | 
+                          <%= link_to 'Usuń', foto, method: :delete, data: { confirm: 'Jesteś pewny ?' } %>
 
-
-<br>
-          <div class="row">
-                <div class="col-md-5">
                 </div>
+                          <% end %>
+              </div>
+                          <% end %>
+                          <%= link_to '+', new_foto_path %>
 
-              <div class="col-md-2">
-                  <div class="plus">
-                    <span class="add">
-                      <%= link_to '+', new_foto_path %>
-                    </span>
+            </div>
+
+<div style="clear:both"></div>
+  <br>
+          <div class="singn">
+            <div class="row">
+                  <div class="col-md-4 col-xs-4">
                   </div>
-              </div>
 
-              <div class="col-md-5">
-              </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="plus text-center">
+                      <span class="add">
+                        <%= link_to '+', new_foto_path %>
+                      </span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-4">
+                </div>
+          </div>
         </div>
-        </div>
-      </div>
+
+
+  </div>
 </div>

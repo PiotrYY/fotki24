@@ -5,7 +5,10 @@
   // They will automatically be included in application.css.
   // You can use Sass (SCSS) here: http://sass-lang.com/
 
-  #fotos {
+
+
+//////////////////////////////////STYLE FOR IMAGES
+  #coma {
   margin: 0 auto;
   }
 
@@ -20,7 +23,7 @@
 
 
 
-.fotos{
+.main{
   min-height: 670px;
     background: url("http://www.gunnars.com/wp-content/uploads/2014/08/Space.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -28,24 +31,25 @@
     -o-background-size: cover;
     background-size: cover;
   }
-.table{
-  min-height: 400px;
-}
+//////////////////////////////////// STYLE FOR PLUS ADD FOTOS
 .plus{
+  position: relative;
+  left:33%;
+  bottom: 10%;
   width: 150px;
   height: 150px;
   background-color: green;
-  text-align: center;
   border-radius: 200px 200px 200px 200px;
   -moz-border-radius: 200px 200px 200px 200px;
   -webkit-border-radius: 200px 200px 200px 200px;
   border: 1px solid #bd48bd;
-}
 
-.plus a{
+}
+.add a{
   color: #fff!important;
   position: relative;
-  top:36%;
+  bottom:26%;
+  left:1%;
   font-size:10em;
 }
 .plus:hover{
@@ -55,5 +59,5 @@
   color: green!important;
   background-color: transparent;
   text-decoration: none;
-  font-size:11em;
+  font-size:10em;
 }
