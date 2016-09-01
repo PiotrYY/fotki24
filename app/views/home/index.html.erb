@@ -3,59 +3,25 @@
   <div class="main">
     <div class="jumbotron first">
             <h1>Strona startowa </h1>
-            <p>Witaj na stronie startowej. Jeszcze tworzę tą sekcję</p>
-            <div class="row">
-              <div class="col-md-5">
-              </div>
-            <div class="col-md-2">
-            <div class="plus">
-              <span class="add">
-            <%= link_to '+', new_foto_path %>
-            </span>
-            </div>
-            </div>
+            <p>Dodaj swoje zdjęcie lub przeglądaj zdjęcia innych.</p>
+            <div class="singn">
+              <div class="row">
+                    <div class="col-md-4 col-xs-4">
+                    </div>
 
-            <div class="col-md-5">
+                  <div class="col-md-4 col-xs-4">
+                      <div class="plus text-center">
+                        <span class="add">
+                          <%= link_to '+', new_foto_path %>
+                        </span>
+                      </div>
+                  </div>
+
+                  <div class="col-md-4 col-xs-4">
+                  </div>
             </div>
-            </div>
+          </div>
 
     </div>
   </div>
-</div>
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="https://ripsonar.files.wordpress.com/2013/11/galaktyka-planeta-kosmos.jpeg" alt="kosmos">
-    </div>
-
-    <div class="item">
-      <img src="http://static.prsa.pl/images/91e8f487-3dbb-4275-8601-7dc9a1261f4c.jpg" alt="kosmos">
-    </div>
-
-    <div class="item">
-      <img src="http://i2.pinger.pl/pgr434/8ba68795002402f5519a43bd/bgalaktyka.jpg" alt="kosmos">
-    </div>
-
-
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
