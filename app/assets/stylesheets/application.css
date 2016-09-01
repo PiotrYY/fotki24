@@ -55,10 +55,12 @@ background-color: #ded4a2;
 }
 
 .formRender{
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   top:33%;
-  width: 480px;
-  left:33%;
+  width: 400px;
+
 }
 .panel-body{
   background-color: #FFFAC4;

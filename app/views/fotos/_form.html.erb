@@ -1,4 +1,4 @@
-<div class="container-fluid form">
+<div class="container form">
 <div class="formRender">
 <%= form_for @foto, html: { multipart: true } do |f| %>
   <% if foto.errors.any? %>
@@ -12,17 +12,18 @@
       </ul>
     </div>
   <% end %>
-
+<div class="form-group">
   <div class="field">
-    <%= f.label :description %>
+    <%= f.label :Tytuł %><br>
     <%= f.text_field :description %>
   </div>
-
+</div>
+<div class="form-group">
   <div class="form-group">
-  <%= f.label :image, "Photo" %>
+  <%= f.label :image, "Fotka" %>
   <%= f.file_field :image, class: "form-control" %>
   </div>
-
+</div>
   <div class="actions">
     <%= f.submit %>
   </div>
