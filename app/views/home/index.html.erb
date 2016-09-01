@@ -2,8 +2,11 @@
 <div class="contiainer">
   <div class="main">
     <div class="jumbotron first">
-            <h1>Strona startowa </h1>
-            <p>Dodaj swoje zdjęcie lub przeglądaj zdjęcia innych.</p>
+            <h1>Dodawaj i przeglądaj zdjęcia</h1>
+            <p>Dodanie zdjęcia wymaga rejestracji</p>
+            <%= link_to 'Rejestracja', new_user_registration_path, class: 'btn btn-primary' %>
+
+
             <div class="singn">
               <div class="row">
                     <div class="col-md-4 col-xs-4">
@@ -24,4 +27,4 @@
 
     </div>
   </div>
-</div>
+  </div>
