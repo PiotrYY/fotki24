@@ -72,17 +72,17 @@ li{
 .jumbotron h1{
   color: white;
   position: absolute;
-  bottom:15%;
+  top:15%;
 }
 .jumbotron p{
   color: white;
   position: absolute;
-  bottom:10%;
+  top:25%;
   left:15%;
 }
 .jumbotron .btn{
   position: absolute;
-  bottom:5%;
+  top:35%;
   left: 20%;
 }
 
@@ -90,7 +90,7 @@ li{
 
 .jumbotron {
   height: 675px;
-  background: url("https://s3.eu-central-1.amazonaws.com/about24/office_about.jpg") no-repeat center center fixed;
+  background: url("https://s3.eu-central-1.amazonaws.com/about24/portfolio.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -102,7 +102,7 @@ li{
   left:50%;
   margin-left: auto;
   margin-right: auto;
-  color: yellow;
+  color: #222222;
   font-size: 4em;
   -webkit-animation-duration: 4s;
   -webkit-animation-delay: 5s;

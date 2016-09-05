@@ -4,7 +4,7 @@
 * ##Website: https://fotki24.herokuapp.com
 
 * ##Rails version 5.0.0.1
-* ##Ruby 4.3.1
+* ##Ruby 2.3.1
 
 * ##Database creation: Postgres
 
@@ -17,5 +17,5 @@
 6. masonry-rails
 
 * ##Amazon Web Servis
-* Style CSS,Animate, Bootstrap,
+* ##Style CSS,Animate, Bootstrap
 * ##Heroku
