@@ -5,12 +5,15 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     <link rel="stylesheet" href="animate.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
     <%= render 'home/header' %>
-  <div class="container-fluid">
+  <div class="container-fluid height">
     <% flash.each do |name, msg| %>
       <%= content_tag(:div, msg, class: "alert alertinfo yellow")%>
     <% end %>

@@ -12,6 +12,7 @@ body{
   color:yellow;
 }
 
+
 /////////////////////////////STYLE NAVBAR
 
 li{
@@ -53,12 +54,6 @@ li{
   font-family: 'Baloo Paaji';
   font-style: italic;
 }
-.shadow{
-  -webkit-box-shadow: -9px 0px 49px -5px rgba(168,156,28,1);
-  -moz-box-shadow: -9px 0px 49px -5px rgba(168,156,28,1);
-  box-shadow: -9px 0px 49px -5px rgba(168,156,28,1);
-}
-
 
 .devise-layout{
   width:45%;
@@ -68,10 +63,6 @@ li{
   margin-right: auto;
   margin-top: 5%;
   color: #160D40;
-
- -webkit-box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
- -moz-box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
- box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
 }
 .panel-heading h2{
   color: #160D40;
@@ -99,17 +90,27 @@ li{
 
 .jumbotron {
   height: 675px;
-  background: url("http://static1.tapetyczne.pl/big/379-ziemia-woda-ogien.jpg") no-repeat center center fixed;
+  background: url("https://s3.eu-central-1.amazonaws.com/about24/macbook-5.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+.arrow{
+  position: relative;
+  top: 70%;
+  left:50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: yellow;
+  font-size: 4em;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 5s;
+}
 
 #skils{
   width: 100%;
-  min-height: 720px;
-  background: url("http://hcvtoniewyrok.com/wp-content/uploads/2014/05/133315_slonce-promienie-niebo-chmury.jpg") no-repeat center center fixed;
+  background: url("http://c.dryicons.com/files/graphics_previews/DD-Sparkle-Burst-Background-67765-Preview.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -118,7 +119,44 @@ li{
 #skils img{
  width: 15%;
 }
+#anim01 {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+#anim02 {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+}
+.anim03 {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 4s;
+  -webkit-animation-iteration-count: 1;
+}
+#anim{
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 10s;
+  -webkit-animation-iteration-count: infiniti;
+}
+.anim1{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 20s;
+  -webkit-animation-iteration-count: infiniti;
+}
+.anim2{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 15s;
+  -webkit-animation-iteration-count: infiniti;
+}
+.anim3{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 25s;
+  -webkit-animation-iteration-count: infiniti;
+}
 
+
+/////////////////////////////DEVISE LAYOUT
 .devise-layout{
   width:45%;
   min-width: 350px;
@@ -127,16 +165,19 @@ li{
   margin-right: auto;
   margin-top: 5%;
   color: #160D40;
-
- -webkit-box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
- -moz-box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
- box-shadow: 0px 10px 71px 0px rgba(222,53,222,1);
+  border: 1px solid #000000;
+    -webkit-box-shadow: 0px -1px 83px 0px rgba(149,194,154,1);
+  -moz-box-shadow: 0px -1px 83px 0px rgba(149,194,154,1);
+  box-shadow: 0px -1px 83px 0px rgba(149,194,154,1);
 }
 .panel-heading h2{
   color: #160D40;
 }
 
 /////////////////////////////STYLE INDEX
+.height{
+  min-height: 670px;
+}
 .first h1,
 .first .h1 {
   color: white;

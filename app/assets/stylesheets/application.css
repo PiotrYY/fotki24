@@ -27,7 +27,11 @@ html{
   background-color: black;
 }
 body{
-background-color: black;
+  /*========================================================
+ This pattern is downloaded from www.subtlepatterns.com
+ If you need more, that's where to get'em.
+ ========================================================*/
+background-image: url("https://s3.eu-central-1.amazonaws.com/about24/subtel_patern.png");
 }
 h1, h2, h3, h4, p{
   font-family: 'Raleway', sans-serif;
