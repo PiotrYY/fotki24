@@ -90,7 +90,7 @@ li{
 
 .jumbotron {
   height: 675px;
-  background: url("https://s3.eu-central-1.amazonaws.com/about24/macbook-5.jpg") no-repeat center center fixed;
+  background: url("https://s3.eu-central-1.amazonaws.com/about24/office_about.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -110,7 +110,8 @@ li{
 
 #skils{
   width: 100%;
-  background: url("http://c.dryicons.com/files/graphics_previews/DD-Sparkle-Burst-Background-67765-Preview.jpg") no-repeat center center fixed;
+
+  background: url("https://s3.eu-central-1.amazonaws.com/about24/Fantasy-Sky-Step+3.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -136,23 +137,23 @@ li{
 }
 #anim{
   -webkit-animation-duration: 5s;
-  -webkit-animation-delay: 10s;
-  -webkit-animation-iteration-count: infiniti;
+  -webkit-animation-delay: 5s;
+  -webkit-animation-iteration-count: 10;
 }
 .anim1{
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 20s;
-  -webkit-animation-iteration-count: infiniti;
+  -webkit-animation-iteration-count: 5;
 }
 .anim2{
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 15s;
-  -webkit-animation-iteration-count: infiniti;
+  -webkit-animation-iteration-count: 4;
 }
 .anim3{
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 25s;
-  -webkit-animation-iteration-count: infiniti;
+  -webkit-animation-iteration-count: 3;
 }
 
 

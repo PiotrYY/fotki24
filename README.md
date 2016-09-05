@@ -3,20 +3,19 @@
 
 * ##Website: https://fotki24.herokuapp.com
 
-* ##Rails version 5.0
+* ##Rails version 5.0.0.1
+* ##Ruby 4.3.1
 
 * ##Database creation: Postgres
 
-* ##Gems: 
-1. paperclip, 
+* ##Specyfic gems:
+1. paperclip,
 2. aws-sdk,
 3. bootstrap-sass,
 4. devise,
 5. font-awesome-rails,
-6.  masonry-rails
+6. masonry-rails
 
 * ##Amazon Web Servis
-
+* Style CSS,Animate, Bootstrap,
 * ##Heroku
-
-
