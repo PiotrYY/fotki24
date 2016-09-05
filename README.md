@@ -1,25 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* ##Website: https://fotki24.herokuapp.com
 
-* Ruby version
+* ##Rails version 5.0
 
-* System dependencies
+* ##Database creation: Postgres
 
-* Configuration
+* ##Gems: 
+1. paperclip, 
+2. aws-sdk,
+3. bootstrap-sass,
+4. devise,
+5. font-awesome-rails,
+6.  masonry-rails
 
-* Database creation
+* ##Amazon Web Servis
 
-* Database initialization
+* ##Heroku
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-https://fotki24.herokuapp.com/
