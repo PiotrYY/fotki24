@@ -72,18 +72,19 @@ li{
 .jumbotron h1{
   color: white;
   position: absolute;
-  top:15%;
+  top:75%;
+  left: 5%;
 }
 .jumbotron p{
   color: white;
   position: absolute;
-  top:25%;
-  left:15%;
+  top:90%;
+  left:5%;
 }
 .jumbotron .btn{
   position: absolute;
-  top:35%;
-  left: 20%;
+  top:87%;
+  left:40%;
 }
 
 
@@ -176,45 +177,53 @@ li{
 }
 
 /////////////////////////////STYLE INDEX
-.height{
-  min-height: 670px;
-}
-.first h1,
-.first .h1 {
-  color: white;
-}
-.first p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
-}
-.first > hr {
-  border-top-color: #d5d5d5;
-}
-.container .first,
-.container-fluid .first {
-  padding-right: 15px;
-  padding-left: 15px;
-  border-radius: 6px;
-}
-.first .container {
-  max-width: 100%;
-}
-@media screen and (min-width: 768px) {
-  .first {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-  .container .first,
-  .container-fluid .first {
-    padding-right: 60px;
-    padding-left: 60px;
-  }
-  .first h1,
-  .first .h1 {
-    font-size: 63px;
-  }
-}
+// .height{
+//   min-height: 670px;
+// }
+// //
+// .first h1 {
+//   color: white;
+//   position: relative;
+//   top: 70%;
+//   left: 50%;
+// }
+// .first p {
+//   position: relative;
+//   top: 80%;
+//   left: 50%;
+// }
+// .first btn{
+//   position: relative;
+//   top: 90%;
+//   left: 50%;
+// }
+// .first > hr {
+//   border-top-color: #d5d5d5;
+// }
+// .container .first,
+// .container-fluid .first {
+//   padding-right: 15px;
+//   padding-left: 15px;
+//   border-radius: 6px;
+// }
+// .first .container {
+//   max-width: 100%;
+// }
+// @media screen and (min-width: 768px) {
+//   .first {
+//     padding-top: 48px;
+//     padding-bottom: 48px;
+//   }
+//   .container .first,
+//   .container-fluid .first {
+//     padding-right: 60px;
+//     padding-left: 60px;
+//   }
+//   .first h1,
+//   .first .h1 {
+//     font-size: 63px;
+//   }
+// }
 
 .first{
   height: 670px;
