@@ -12,7 +12,6 @@ body{
   color:yellow;
 }
 
-
 /////////////////////////////STYLE NAVBAR
 
 li{
@@ -38,7 +37,6 @@ li{
 li{
   font-size: 110%;
 }
-
 
 li{
   font-family: 'Raleway', sans-serif;
@@ -74,24 +72,22 @@ li{
   color: white;
   position: absolute;
   top:50%;
-  left:33%;
+  left:25%;
   color:#FFF9C2;
 }
 .jumbotron p{
   color: white;
   position: absolute;
   top:65%;
-  left:43%;
+  left:25%;
   color: #403E31;
   font-weight: bold;
 }
 .jumbotron .btn{
   position: absolute;
-  top:63%;
-  left:33%;
+  top:70%;
+  left:25%;
 }
-
-
 
 .jumbotron {
   height: 675px;
@@ -145,7 +141,7 @@ li{
   -webkit-animation-delay: 5s;
   -webkit-animation-iteration-count: 10;
 }
-.anim1{
+  .anim1{
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 20s;
   -webkit-animation-iteration-count: 5;
@@ -180,55 +176,6 @@ li{
   color: #160D40;
 }
 
-/////////////////////////////STYLE INDEX
-// .height{
-//   min-height: 670px;
-// }
-// //
-// .first h1 {
-//   color: white;
-//   position: relative;
-//   top: 70%;
-//   left: 50%;
-// }
-// .first p {
-//   position: relative;
-//   top: 80%;
-//   left: 50%;
-// }
-// .first btn{
-//   position: relative;
-//   top: 90%;
-//   left: 50%;
-// }
-// .first > hr {
-//   border-top-color: #d5d5d5;
-// }
-// .container .first,
-// .container-fluid .first {
-//   padding-right: 15px;
-//   padding-left: 15px;
-//   border-radius: 6px;
-// }
-// .first .container {
-//   max-width: 100%;
-// }
-// @media screen and (min-width: 768px) {
-//   .first {
-//     padding-top: 48px;
-//     padding-bottom: 48px;
-//   }
-//   .container .first,
-//   .container-fluid .first {
-//     padding-right: 60px;
-//     padding-left: 60px;
-//   }
-//   .first h1,
-//   .first .h1 {
-//     font-size: 63px;
-//   }
-// }
-
 .first{
   height: 670px;
   background: url("http://static.prsa.pl/images/c2dfc052-25b8-4cc4-a4ca-789ad0dcf265.jpg") no-repeat center center fixed;
@@ -236,4 +183,18 @@ li{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+/////////////////////////////RWD LAYOUT
+
+@media (max-width: 1115px) {
+	h1{font-size: 3em;}
+	.jumbotron p {font-size: 2em;}
+  .btn{font-size: 1em;}
+}
+@media (max-width: 510px) {
+	h1{font-size: 2em;}
+	.jumbotron p {font-size: 1em;}
+  .btn{font-size: 1em;}
+
 }
