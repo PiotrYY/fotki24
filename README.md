@@ -16,6 +16,6 @@
 5. font-awesome-rails,
 6. masonry-rails
 
-* ##Amazon Web Servis
-* ##Style CSS,Animate, Bootstrap
-* ##Heroku
+* Amazon Web Servis
+* Style CSS,Animate, Bootstrap
+* Heroku
