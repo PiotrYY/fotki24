@@ -7,8 +7,8 @@
 * ##Ruby 2.3.1
 
 * ##Database creation: Postgres
-* ##Amazon Web Servis
-* ##Style CSS,Animate, Bootstrap
+* Amazon Web Servis
+* Style CSS,Animate, Bootstrap
 * ##Heroku
 
 * ##Specyfic gems:
