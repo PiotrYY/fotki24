@@ -7,6 +7,9 @@
 * ##Ruby 2.3.1
 
 * ##Database creation: Postgres
+* ##Amazon Web Servis
+* ##Style CSS,Animate, Bootstrap
+* ##Heroku
 
 * ##Specyfic gems:
 1. paperclip,
@@ -16,6 +19,4 @@
 5. font-awesome-rails,
 6. masonry-rails
 
-* Amazon Web Servis
-* Style CSS,Animate, Bootstrap
-* Heroku
+
